@@ -5,7 +5,7 @@ import {
   AiFillSkype,
 } from "react-icons/ai";
 import { FaTelegram, FaDiscord, FaTelegramPlane } from "react-icons/fa";
-import { SiDiscord } from "react-icons/si";
+import { SiDiscord, SiGmail } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -29,6 +29,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:aleksandrsergey92@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiGmail />
               </a>
             </li>
             <li className="social-icons">

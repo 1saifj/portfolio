@@ -1,12 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiFillSkype
+  AiFillSkype,
+  AiOutlineMail
 } from "react-icons/ai";
 import { FaTelegram, FaDiscord } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Home2() {
   return (
@@ -20,14 +22,13 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> JavaScript, TypeScript and Solidity. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest is building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -47,13 +48,28 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js or Next.js, and Vue.js </b>
+              </i>
+              <br />
+              <br />
+              Currently, I am focused on Blockchain developent with
+              <i>
+                <b className="purple">
+                  {" "}
+                  Solidity,
+                </b>
+              </i> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Web3.js
+                </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ borderRadius: '50%' }} />
             </Tilt>
           </Col>
         </Row>
@@ -72,6 +88,15 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:aleksandrsergey92@gmail.com"
+                  target="_blank"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
                 </a>
               </li>
               <li className="social-icons">
