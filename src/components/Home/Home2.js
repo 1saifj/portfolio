@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js or Next.js, and Vue.js </b>
+                <b className="purple"> React.js or Next.js, and Vue.js. </b>
               </i>
               <br />
               <br />
@@ -62,7 +62,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web3.js
+                  Web3.js.
                 </b>
               </i>
             </p>
