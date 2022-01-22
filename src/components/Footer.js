@@ -4,7 +4,8 @@ import {
   AiFillGithub,
   AiFillSkype,
 } from "react-icons/ai";
-import { FaTelegram, FaDiscord } from "react-icons/fa";
+import { FaTelegram, FaDiscord, FaTelegramPlane } from "react-icons/fa";
+import { SiDiscord } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -13,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3> Designed and Developed by Aleksandr </h3>
+          <h3> Designed and Developed by Aleksandr Sergeyevich </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} AS</h3>
@@ -47,7 +48,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaDiscord />
+                <SiDiscord />
               </a>
             </li>
             <li className="social-icons">
@@ -57,7 +58,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaTelegram />
+                <FaTelegramPlane />
               </a>
             </li>
           </ul>
