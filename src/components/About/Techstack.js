@@ -11,7 +11,7 @@ import { SiNextdotjs, SiTypescript, SiPostgresql,
 } from "react-icons/si"
 import { RiVuejsFill } from "react-icons/ri"
 import { DiLaravel } from "react-icons/di"
-import { FaPhp, FaRust, FaBootstrap, FaCss3, FaSass } from "react-icons/fa"
+import { FaPhp, FaRust, FaCss3 } from "react-icons/fa"
 
 function Techstack() {
   return (
